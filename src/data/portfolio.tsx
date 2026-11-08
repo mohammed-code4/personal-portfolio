@@ -21,6 +21,7 @@ import cureImage from "@/assets/images/cure.png";
 import groceryImage from "@/assets/images/grocery.png";
 import vestaImage from "@/assets/images/vesta.png";
 import { StaticImageData } from "next/image";
+
 export interface Project {
   id: string;
   title: string;
@@ -51,10 +52,10 @@ export interface NavLink {
 }
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "Home", href: "#" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "home" },
+  { label: "Skills", href: "skills" },
+  { label: "Projects", href: "projects" },
+  { label: "Contact", href: "contact" },
 ];
 
 export const PERSONAL_INFO = {
@@ -64,7 +65,7 @@ export const PERSONAL_INFO = {
     " I'm a Front-End Developer focused on building modern, responsive, and user-friendly web applications using React.js, Next.js, TypeScript, and modern frontend technologies",
   about:
     "I'm a Front-End Developer focused on building modern, responsive, and user-friendly web applications using React.js, Next.js, TypeScript, and modern frontend technologies. I enjoy turning ideas and designs into clean, reusable, and scalable interfaces following clean architecture and best performance practices.",
-  status: "Available for new projects",
+  status: "Available for new Opportunities",
   email: "mohammed.hussein.dev4@gmail.com",
   location: "Cairo, Egypt",
   avatar: "/mohammed.png",

@@ -5,8 +5,6 @@ import { FaMoon, FaSun } from "react-icons/fa";
 export function ThemeToggle() {
   const { setTheme, resolvedTheme } = useTheme();
 
-  const isDark = resolvedTheme === "dark";
-
   return (
     <button
       type="button"
@@ -16,7 +14,8 @@ export function ThemeToggle() {
       aria-label="Toggle theme"
       className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-surface text-foreground hover:bg-surface-hover transition-colors cursor-pointer"
     >
-      {isDark ? <FaSun /> : <FaMoon />}
+      <FaSun className="dark:block hidden" />
+      <FaMoon className="dark:hidden block" />
     </button>
   );
 }

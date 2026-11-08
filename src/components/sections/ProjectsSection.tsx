@@ -7,7 +7,10 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="py-20 border-t border-border">
       <Container>
-        <SectionHeader title="Projects" />
+        <SectionHeader
+          title="Projects"
+          description="Projects I worked on during my internship training."
+        />
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {PROJECTS.map((project) => (
             <ProjectCard key={project.id} project={project} />

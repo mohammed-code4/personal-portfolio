@@ -16,6 +16,14 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  async rewrites() {
+    return [
+      {
+        source: "/:section(home|about|skills|projects|certifications|contact)",
+        destination: "/",
+      },
+    ];
+  },
 };
 
 export default nextConfig;

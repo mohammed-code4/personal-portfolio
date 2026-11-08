@@ -6,7 +6,10 @@ import { Button } from "../shared/Button";
 
 export function HeroSection() {
   return (
-    <section className="relative flex min-h-128 items-center py-16 sm:py-24">
+    <section
+      id="home"
+      className="relative flex min-h-128 items-center py-16 sm:py-24"
+    >
       <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="flex flex-col items-start">
           <span className="text-sm font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
