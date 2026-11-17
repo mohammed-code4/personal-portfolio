@@ -19,6 +19,7 @@ export const ProjectCard = ({ project, onSelect }: ProjectCardProps) => {
           <img
             src={project.image}
             alt={project.title}
+            loading="lazy"
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />

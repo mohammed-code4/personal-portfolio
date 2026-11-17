@@ -1,13 +1,13 @@
-import safarniImage from "@/assets/images/safarni.png";
-import cureImage from "@/assets/images/cure.png";
-import groceryImage from "@/assets/images/grocery.png";
-import vestaImage from "@/assets/images/vista.png";
+import safarniImage from "@/assets/images/safarni.webp";
+import cureImage from "@/assets/images/cure.webp";
+import groceryImage from "@/assets/images/grocery.webp";
+import vestaImage from "@/assets/images/vista.webp";
 
-import authSystemImage from "@/assets/images/auth-system.png";
-import clarityImage from "@/assets/images/clarity.png";
-import contactHubImage from "@/assets/images/contact-hub.png";
-import gameArenaImage from "@/assets/images/game-arena.png";
-import postsAppImage from "@/assets/images/posts-app.png";
+import authSystemImage from "@/assets/images/auth-system.webp";
+import clarityImage from "@/assets/images/clarity.webp";
+import contactHubImage from "@/assets/images/contact-hub.webp";
+import gameArenaImage from "@/assets/images/game-arena.webp";
+import postsAppImage from "@/assets/images/posts-app.webp";
 
 export type Project = {
   id: string;

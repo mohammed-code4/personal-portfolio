@@ -32,6 +32,7 @@ export const ProjectDetailsDialog = ({
           <img
             src={project.image}
             alt={project.title}
+            loading="lazy"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent" />

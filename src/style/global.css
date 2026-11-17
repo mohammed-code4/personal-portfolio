@@ -126,10 +126,12 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50 scrollbar-thin;
+    @apply border-border outline-ring/50;
   }
+
   html {
-    @apply font-sans scroll-smooth;
+    @apply font-sans scroll-smooth scrollbar-thin;
+    scrollbar-color: var(--primary) transparent;
   }
 
   body {
