@@ -135,7 +135,7 @@
   }
 
   body {
-    @apply bg-linear-to-b from-primary/10 via-primary/5 to-primary-foreground/10 bg-background  text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+    @apply bg-linear-to-b from-primary/5 via-primary/5 to-primary-foreground/10 bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {

@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import HeroSection from "@/components/sections/hero/hero-section";
 import AboutSection from "@/components/sections/about/about-section";
+import ExperienceSection from "@/components/sections/experience/experience-section";
 import SkillsSection from "@/components/sections/skills/skills-section";
 import ProjectsSection from "@/components/sections/projects/projects-section";
 import ContactSection from "@/components/sections/contact/contact-section";
@@ -16,6 +17,7 @@ export const HomePage = () => {
       <main id="top" className="main-container space-y-4 pb-16 pt-4 sm:pt-8">
         <HeroSection />
         <AboutSection />
+        <ExperienceSection />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />

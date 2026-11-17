@@ -16,7 +16,7 @@ export const ProjectsSection = () => {
   // State for opening and closing dialog
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  // to filter projects based on the active filter
+  //   filter projects based on the active filter
   const filteredProjects = useMemo(() => {
     if (activeFilter === "All") {
       return projects;
@@ -26,7 +26,7 @@ export const ProjectsSection = () => {
   }, [activeFilter]);
 
   return (
-    <section id="projects" className="scroll-mt-20  py-12 md:py-16">
+    <section id="projects" className="scroll-mt-20 py-12 md:py-16">
       <SectionHeading
         badgeText="Projects"
         title="Featured work that strengthened my front-end skills."
