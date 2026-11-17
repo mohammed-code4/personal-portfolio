@@ -97,7 +97,7 @@
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.7019 0.1577 160.44);
-  --primary-foreground: oklch(0.2613 0.0501 173.10);
+  --primary-foreground: oklch(0.2613 0.0501 173.1);
   --secondary: oklch(0.274 0.006 286.033);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
@@ -133,7 +133,7 @@
   }
 
   body {
-    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+    @apply bg-linear-to-b from-primary/10 via-primary/5 to-primary-foreground/10 bg-background  text-foreground antialiased selection:bg-primary/20 selection:text-primary;
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {

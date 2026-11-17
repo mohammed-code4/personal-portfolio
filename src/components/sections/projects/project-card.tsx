@@ -13,8 +13,8 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({ project, onSelect }: ProjectCardProps) => {
   return (
-    <Card className="group  flex flex-col justify-between overflow-hidden border-border/80 bg-card shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-      <CardContent className="p-0">
+    <Card className="group py-0! flex flex-col justify-between overflow-hidden border-border/80 bg-card shadow-xs transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ">
+      <CardContent className="p-0!">
         <div className="relative aspect-video w-full overflow-hidden bg-muted">
           <img
             src={project.image}
